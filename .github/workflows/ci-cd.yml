@@ -31,7 +31,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
           name: Code.Library
-          path: src\MyConsoleApp\MyConsoleApp\bin\Release\MyConsoleApp.1.0.0.nupkg
+          path: src\MyConsoleApp\MyConsoleApp\bin\Release\MyConsoleApp.22.0.0.nupkg
     - name: Publish Nuget Package
       run: dotnet nuget push **/*.nupkg --api-key ${{ secrets.my_nuget_package_secret }} --source https://api.nuget.org/v3/index.json --no-symbols true
       
