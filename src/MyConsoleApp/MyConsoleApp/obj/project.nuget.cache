@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A+ptU6ayF9UZF9Qx6qM6h02T4HVIopdYRkZCxyXBwME4mqmt5w5YXbcVkR1mBaLGLO8nXB3ZRb4756TrhuyVCw==",
+  "dgSpecHash": "aTugyzUWppl2piEzxQhFbuT4oOEKapR+l3ExGKWowVSdTcU6v+O6c6XmdAaOUyCdFoqHQpnHMxEZLiVmZAtpKg==",
   "success": true,
-  "projectFilePath": "D:\\MyConsoleApp\\MyConsoleApp\\MyConsoleApp.csproj",
+  "projectFilePath": "D:\\console-ci-cd\\src\\MyConsoleApp\\MyConsoleApp\\MyConsoleApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
