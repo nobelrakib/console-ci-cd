@@ -23,13 +23,13 @@ jobs:
       run: dotnet build --configuration Release
       working-directory: ./src/MyConsoleApp
     - name: Create NuGet Package
-      run: dotnet pack  -c Release /p:Version="22.0.5" /p:PackageReleaseNotes="See https://github.com/Abhith/Code.Library/releases/tag/${{ github.event.release.tag_name }}" 
+      run: dotnet pack  -c Release /p:Version="22.0.6" /p:PackageReleaseNotes="See https://github.com/Abhith/Code.Library/releases/tag/${{ github.event.release.tag_name }}" 
       working-directory: ./src/MyConsoleApp
     - name: Archive NuGet Package
       uses: actions/upload-artifact@v4
       with:
           name: Code.Library
-          path: ./src/MyConsoleApp/MyConsoleApp/bin/Release/MyCustomNugetMyConsoleApp.22.0.3.nupkg
+          path: ./src/MyConsoleApp/MyConsoleApp/bin/Release/MyCustomNugetMyConsoleApp.22.0.6.nupkg
     - name: Publish Nuget Package
       run: dotnet nuget push **/*.nupkg --api-key ${{ secrets.my_nuget_package_secret }} --source https://api.nuget.org/v3/index.json --no-symbols true
       
