@@ -31,5 +31,5 @@ jobs:
           name: Code.Library
           path: ./src/MyConsoleApp/MyConsoleApp/bin/Release/MyCustomNugetMyConsoleApp.22.0.3.nupkg
     - name: Publish Nuget Package
-      run: dotnet nuget push MyCustomNugetMyConsoleApp.22.0.3.nupkg --api-key ${{ secrets.my_nuget_package_secret }} --source https://api.nuget.org/v3/index.json --no-symbols true
+      run: dotnet nuget push **/*.nupkg --api-key ${{ secrets.my_nuget_package_secret }} --source https://api.nuget.org/v3/index.json --no-symbols true
       
