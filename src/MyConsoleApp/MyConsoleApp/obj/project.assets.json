@@ -14,7 +14,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "D:\\console-ci-cd\\src\\MyConsoleApp\\MyConsoleApp\\MyConsoleApp.csproj",
-      "projectName": "MyConsoleApp",
+      "projectName": "MyCustomNugetMyConsoleApp",
       "projectPath": "D:\\console-ci-cd\\src\\MyConsoleApp\\MyConsoleApp\\MyConsoleApp.csproj",
       "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
       "outputPath": "D:\\console-ci-cd\\src\\MyConsoleApp\\MyConsoleApp\\obj\\",

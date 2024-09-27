@@ -10,10 +10,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("MyConsoleApp")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("MyCustomNugetMyConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00c36d2c490b0004ae5c21394c3eb4140ed9d771")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+633ef18c83bd15453f3366c4adc296554d9b05a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyConsoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
