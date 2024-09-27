@@ -5,6 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<AssemblyName>MyCustomNugetMyConsoleApp</AssemblyName>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>MyCustomNugetMyConsoleApp</PackageId>
     <Authors>MyCustomNugetMyConsoleApp</Authors>
